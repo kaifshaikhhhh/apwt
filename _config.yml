@@ -21,7 +21,7 @@ repository               : "kaifshaikhhhh/apwt"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "pfp.jpg"
   name             : "Kaif S."
   pronouns         : # example: "she/her"  
   bio              : "Research Intern @CISPA"
@@ -46,7 +46,8 @@ author:
   dribbble         : # Username
   github           : "kaifshaikhhhh"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")   
+  huggingface      : "KaifResearch"
 
   # Social media
   bluesky          : "kaifshk.bsky.social" # Replace this with you Bluesky username
