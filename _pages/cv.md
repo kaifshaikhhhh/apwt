@@ -9,27 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Research Interests
 ======
-* B. Tech in CSE, D. Y. Patil International University, 2021 - 2025
+Natural Language Processing; Privacy and Trustworthy Information Processing; AI Alignment; Human-
+Computer Interaction (HCI); Interpretability
 
 Research Experience
 ======
-* **Research Intern**
-  * **CISPA Helmholtz Center for Information Security, Saarbrücken, Germany / Jun 2024 - Present**
-  * Topic of Research: Auditing Differentially Private Diffusion Models [Current Project]
+* **Research Intern (Voluntary)**
+  * **CSprintML Lab — CISPA, Saarbrücken, Germany / Sept 2024 - Present**
+  * Topic of Research: *Auditing Differentially Private Diffusion Models*
     * Building auditing mechanisms to evaluate privacy strictness of state-of-the-art Diffusion Models.
     * Finetuning and evaluating Diffusion models by implementing various DPSGDs algorithms and comparing it with our own DPSGD implementation.
-  * Topic of Research: Privacy Preserving Generation with Large Language Models [Previous Project]
-    * Researching on Private Large Language Models using various Differential Privacy Frameworks.
-    * Analyzing several pretraining / fine-tuning methods and model behavior in various downstream tasks.
-    * Fine-tuning text, vision, and multimodals with PEFT methods and enabling DP for Privacy Preserving PEFT methods.
+    * Building our own Novel DP finetuning adaptation for Image Autoregressive models (IAR).
+    * Analyzing existing DP finetuning adaptation methods for IARs and comparing with our method.
 
 * **Research Assistant**
   * **Indian School of Business, Hyderabad, India / Sept 2024 - Jan 2025**
   * Creating a tailored NLP pipeline with OCR, Text Classification and Token Classification models leveraging Open LLMs.
   * Developing internal classifier pipelines leveraging state-of-the-art instruct LLMs.
   * Fine-tuning Instruct models on highly curated synthetic dataset designed for identifying Communal violence news articles and generating consistent JSON output.
+
+* **Research Intern**
+  * **CISPA Helmholtz Center for Information Security, Saarbrücken, Germany / Jun 2024 - Aug 2024**
+  * Topic of Research: *Privacy Preserving Generation with Large Language Models*
+    * Researching on Private Large Language Models using various Differential Privacy Frameworks.
+    * Analyzing several pretraining / fine-tuning methods and model behavior in various downstream tasks.
+    * Fine-tuning text, vision, and multimodals with PEFT methods and enabling DP for Privacy Preserving PEFT methods.
 
 * **Research Assistant**
   * **Indian School of Business, Hyderabad, India / Aug 2023 - Jan 2024**
@@ -57,7 +63,11 @@ Professional Experience
   * Developed a sophisticated Content Recommendation system using AWS Personalize.
   * Gained hands-on experience with more than 50 AWS services during the training period.
   * Proficient in using tools like the AWS Cost Calculator to optimize cloud resources.
-  
+
+Education
+======
+* B. Tech in CSE, D. Y. Patil International University, 2021 - 2025
+
 Skills
 ======
 * **Programming**
