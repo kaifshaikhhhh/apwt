@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hey👋 I am currently pursuing a Bachelor of Technology degree in Computer Science and Engineering at D.Y. Patil International University, set to graduate in 2025. My academic and research journey has been driven by a deep-seated passion for Artificial Intelligence and its applications, particularly in Natural Language Processing (NLP), Human-Computer Interaction (HCI), and AI alignment. I have consistently sought opportunities to contribute meaningfully to cutting-edge research, immersing myself in projects that bridge theoretical insights with real-world applications.
+Hey 👋 I'm an undergraduate student in Computer Science at D.Y. Patil International University, graduating in 2025. I’m deeply curious about AI and how we can build systems that are both powerful and trustworthy. My work mainly revolves around natural language processing (NLP), human-AI interaction, and privacy-preserving machine learning.
 
-At present, I am actively involved in two exciting research projects. At the Indian School of Business, I am developing an advanced NLP pipeline combining OCR, text classification, and token classification models to analyze communal violence news articles. This involves fine-tuning state-of-the-art instructional large language models on a carefully curated synthetic dataset to achieve highly precise and structured outputs. Concurrently, I am contributing to a project at CISPA Helmholtz Center for Information Security in Germany, where I am auditing differentially private diffusion models. This work involves implementing differential privacy stochastic gradient descent (DPSGD) algorithms and designing innovative auditing mechanisms to evaluate privacy strictness in state-of-the-art diffusion models. These projects allow me to delve deeply into the nuances of privacy-preserving AI and the ethical dimensions of machine learning technologies.
+Currently, I’m involved in research at two places. At CISPA Helmholtz Center for Information Security, I'm working on auditing and improving privacy techniques for generative models, especially diffusion and autoregressive models. I’m also collaborating with the Indian School of Business, where I’m building NLP pipelines to analyze sensitive news data — combining large language models with tools like OCR and classification systems to structure messy real-world information.
 
-My experience in research spans several years, starting with an internship at the National Institute of Technology Patna in 2022, where I optimized quadrupedal locomotion systems, followed by roles in academia and industry. Over this period, I have honed my skills in deep learning, model optimization, and privacy frameworks, culminating in impactful contributions to NLP, privacy-preserving AI, and big data analytics. These diverse experiences reflect my commitment to advancing research responsibly and ethically, as I work towards a future in which AI technologies are both innovative and inclusive.
+Across these projects, I’m exploring how to make machine learning systems more private, reliable, and aligned with human values. My goal is to work at the intersection of ethics and cutting-edge AI, and contribute to systems that are not only smart but safe.
 
 Current Research Projects
 ======
@@ -27,4 +27,4 @@ Research Interests
 - **Adversarial Machine Learning**
 - **Interpretability**
 - **Privacy in ML**
-- **Trustworthy Information Processing**
+- **Trustworthy ML**
