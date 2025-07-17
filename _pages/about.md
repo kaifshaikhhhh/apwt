@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Kaif — About Me"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,9 +13,12 @@ Currently, I’m involved in research at two places. At CISPA Helmholtz Center f
 
 Across these projects, I’m exploring how to make machine learning systems more private, reliable, and aligned with human values. My goal is to work at the intersection of ethics and cutting-edge AI, and contribute to systems that are not only smart but safe.
 
-Current Research Projects
+<!-- Current Research Projects -->
+<!-- ====== -->
+
+Previous Research Projects
 ======
-- **Differentially Private Image Generation Models**
+- [**Differentially Private Image Generation Models**](https://github.com/sprintml/finetuning_var_dp)
 - [**India Violence Archive**](https://github.com/India-Violence-Archive)
 
 Research Interests
