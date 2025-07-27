@@ -7,27 +7,43 @@ redirect_from:
   - /about.html
 ---
 
-Hey 👋 I'm an undergraduate student in Computer Science at D.Y. Patil International University, graduating in 2025. I’m deeply curious about AI and how we can build systems that are both powerful and trustworthy. My work mainly revolves around natural language processing (NLP), human-AI interaction, and privacy-preserving machine learning.
+I recently completed my undergraduate studies in Computer Science & Engineering. I am currently conducting research in Trustworthy ML and Privacy-preserving ML at the<a href="https://sprintml.com/">SprintML</a> Lab under the supervision of <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> & <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> at the CISPA Helmholtz Center for Information Security.
 
-Currently, I’m involved in research at two places. At CISPA Helmholtz Center for Information Security, I'm working on auditing and improving privacy techniques for generative models, especially diffusion and autoregressive models. I’m also collaborating with the Indian School of Business, where I’m building NLP pipelines to analyze sensitive news data — combining large language models with tools like OCR and classification systems to structure messy real-world information.
+I generally work on topics related to Trustworthy Machine Learning, focusing on Large Language Models, Vision Models and Multimodality. You can reach out to me via email at *kaifs0351[at]gmail[dot]com*.
 
-Across these projects, I’m exploring how to make machine learning systems more private, reliable, and aligned with human values. My goal is to work at the intersection of ethics and cutting-edge AI, and contribute to systems that are not only smart but safe.
+## Recent News & Updates
 
-<!-- Current Research Projects -->
-<!-- ====== -->
+<div style="border: 1px solid #e1e5e9; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; background-color: #f8f9fa;">
+  <div style="max-height: 200px; overflow-y: auto; padding-right: 0.5rem;">
+    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.1;">
+      <li style="margin-bottom: 0.8rem;"><strong>[June 2025]</strong> Our work "<a href="https://arxiv.org/abs/2507.11441">Implementing Adaptations for Vision AutoRegressive Model</a>" is Accepted at DIG-BUGS: Data in Generative Models Workshop @ ICML 2025</li>
+      <li style="margin-bottom: 0.8rem;"><strong>[March 2025]</strong> Our paper on "Measuring Communal Violence Using Large Language Models" is accepted at the <a href="https://www.apsanet.org/annual-meeting/">American Political Science Association Annual Meeting</a> 2025. We will be presenting our work in Sept 2025.</li>
+    </ul>
+  </div>
+</div>
 
-Previous Research Projects
-======
-- [**Differentially Private Image Generation Models**](https://github.com/sprintml/finetuning_var_dp)
-- [**India Violence Archive**](https://github.com/India-Violence-Archive)
 
-Research Interests
-======
-- **Natural Language Processing** 
-- **AI Alignment**
-- **Large Language Models**
-- **Human-Computer Interaction (HCI)**
-- **Adversarial Machine Learning**
-- **Interpretability**
-- **Privacy in ML**
-- **Trustworthy ML**
+
+<div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px;">
+    <h2>Previous Research Projects</h2>
+    <ul>
+      <li><a href="https://arxiv.org/abs/2507.11441"><strong>Differentially Private Image Generation Models</strong></a></li>
+      <li><a href="https://github.com/India-Violence-Archive"><strong>India Violence Archive</strong></a></li>
+    </ul>
+  </div>
+  
+  <div style="flex: 1; min-width: 300px;">
+    <h2>Research Interests</h2>
+    <ul>
+      <li><strong>Natural Language Processing</strong></li>
+      <li><strong>AI Alignment</strong></li>
+      <li><strong>Large Language Models</strong></li>
+      <li><strong>Human-Computer Interaction (HCI)</strong></li>
+      <li><strong>Adversarial Machine Learning</strong></li>
+      <li><strong>Interpretability</strong></li>
+      <li><strong>Privacy in ML</strong></li>
+      <li><strong>Trustworthy ML</strong></li>
+    </ul>
+  </div>
+</div>
