@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I recently completed my undergraduate studies in Computer Science & Engineering. I am currently conducting research in Trustworthy ML and Privacy-preserving ML at the<a href="https://sprintml.com/">SprintML</a> Lab under the supervision of <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> & <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> at the CISPA Helmholtz Center for Information Security.
+I recently completed my undergraduate studies in Computer Science & Engineering. I am currently conducting research in Trustworthy ML and Privacy-preserving ML at the <a href="https://sprintml.com/">SprintML</a> Lab under the supervision of <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> & <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> at the CISPA Helmholtz Center for Information Security.
 
 I generally work on topics related to Trustworthy Machine Learning, focusing on Large Language Models, Vision Models and Multimodality. You can reach out to me via email at *kaifs0351[at]gmail[dot]com*.
 
