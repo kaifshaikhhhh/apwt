@@ -11,20 +11,22 @@ I recently completed my undergraduate studies in Computer Science & Engineering.
 
 I generally work on topics related to Trustworthy Machine Learning, focusing on Large Language Models, Vision Models and Multimodality. You can reach out to me via email at *kaifs0351[at]gmail[dot]com*.
 
+### Research Interests
+
+Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Alignment; Human-Computer Interaction (HCI); Interpretability; Adversarial Machine Learning
+
 ## Recent News & Updates
 
 <div style="border: 1px solid #e1e5e9; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; background-color: #f8f9fa;">
   <div style="max-height: 200px; overflow-y: auto; padding-right: 0.5rem;">
     <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.1;">
-      <li style="margin-bottom: 0.8rem;"><strong>[June 2025]</strong> Our work "<a href="https://arxiv.org/abs/2507.11441">Implementing Adaptations for Vision AutoRegressive Model</a>" is Accepted at DIG-BUGS: Data in Generative Models Workshop @ ICML 2025</li>
+      <li style="margin-bottom: 0.8rem;"><strong>[June 2025]</strong> Our work "<a href="https://openreview.net/forum?id=YsTotIsCys">Implementing Adaptations for Vision AutoRegressive Model</a>" is Accepted at DIG-BUGS: Data in Generative Models Workshop @ ICML 2025</li>
       <li style="margin-bottom: 0.8rem;"><strong>[March 2025]</strong> Our paper on "Measuring Communal Violence Using Large Language Models" is accepted at the <a href="https://www.apsanet.org/annual-meeting/">American Political Science Association Annual Meeting</a> 2025. We will be presenting our work in Sept 2025.</li>
     </ul>
   </div>
 </div>
 
-
-
-<div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+<!-- <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px;">
     <h2>Previous Research Projects</h2>
     <ul>
@@ -46,4 +48,8 @@ I generally work on topics related to Trustworthy Machine Learning, focusing on 
       <li><strong>Trustworthy ML</strong></li>
     </ul>
   </div>
-</div>
+</div> -->
+
+## Publications
+
+- **Kaif Shaikh**, Antoni Kowalczuk, Franziska Boenisch, Adam Dziedzic. [Implementing Adaptations for Vision AutoRegressive Model](https://openreview.net/forum?id=YsTotIsCys). In *Proceedings of the DIG-BUGS: Data in Generative Models Workshop --- ICML 2025*.
