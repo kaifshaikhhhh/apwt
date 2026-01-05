@@ -11,6 +11,14 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
+  @include breakpoint($sidebar-screen-min-width) {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
@@ -398,4 +406,102 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+
+/*
+   Page table of contents
+   ========================================================================== */
+
+.page-with-toc {
+  @include breakpoint($large) {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) 250px;
+    column-gap: 1.5rem;
+    align-items: start;
+  }
+}
+
+.page-with-toc .page {
+  @include breakpoint($large) {
+    margin-right: 0;
+    float: none;
+    width: 135%;
+    max-width: none;
+  }
+}
+
+.page__toc {
+  width: 100%;
+  margin: 0 0 2rem 0;
+  @include breakpoint($large) {
+    margin-left: 10rem;
+  }
+  padding: 1.25rem 1.5rem;
+  background: $lighter-gray;
+  border: 1px solid $light-gray;
+  border-radius: $border-radius;
+  box-shadow: 0 10px 30px rgba(#000, 0.04);
+  position: sticky;
+  top: 4.5rem;
+  max-height: calc(100vh - 6rem);
+  overflow: auto;
+  font-family: $sans-serif;
+  z-index: 2;
+}
+
+.page__toc-title {
+  margin: 0 0 0.75rem;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $gray;
+}
+
+.page__toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page__toc-item {
+  margin-bottom: 0.35rem;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color $global-transition;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+
+  &.level-3 {
+    margin-left: 0.75rem;
+
+    a {
+      font-weight: 500;
+    }
+  }
+
+  &.level-4 {
+    margin-left: 1.5rem;
+
+    a {
+      font-weight: 500;
+    }
+  }
+}
+
+@include breakpoint(max-width $large) {
+  .page-with-toc {
+    display: block;
+  }
+
+  .page__toc {
+    position: static;
+    max-height: none;
+  }
 }
