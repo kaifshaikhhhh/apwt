@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I recently completed my undergraduate studies in Computer Science & Engineering. I am currently a researcher at the <a href="https://sprintml.com/">SprintML</a> Lab under the supervision of <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> & <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> at the CISPA Helmholtz Center for Information Security.
+I am a researcher at the <a href="https://sprintml.com/">SprintML</a> Lab under the supervision of <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> & <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> at the <a href="https://cispa.de/en">CISPA Helmholtz Center for Information Security</a>, and an M.Sc. student in Cybersecurity at Saarland University.
 
 I generally work on topics related to Trustworthy Machine Learning, focusing on Large Language Models, Vision and Multimodality.
 
