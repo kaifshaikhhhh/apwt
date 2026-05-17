@@ -56,4 +56,5 @@ Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Ali
 
 ## Publications
 
+- Lorenzo Rossi, **Kaif Shaikh**, Franziska Boenisch, Adam Dziedzic. [Auditing Preference-Based Post-Training of LLMs via Strong Membership Inference Attacks](https://openreview.net/forum?id=9Q5YHXfxId). In *3rd Workshop on Navigating and Addressing Data Problems for Foundation Models -- ICLR 2026*.
 - **Kaif Shaikh**, Antoni Kowalczuk, Franziska Boenisch, Adam Dziedzic. [Implementing Adaptations for Vision AutoRegressive Model](https://openreview.net/forum?id=YsTotIsCys). In *Proceedings of the DIG-BUGS: Data in Generative Models Workshop --- ICML 2025*.
