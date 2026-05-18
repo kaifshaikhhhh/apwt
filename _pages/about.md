@@ -24,7 +24,7 @@ Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Ali
 <div style="border: 1px solid #e1e5e9; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; background-color: #f8f9fa;">
   <div style="max-height: 200px; overflow-y: auto; padding-right: 0.5rem;">
     <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.1;">
-      <li style="margin-bottom: 0.8rem;"><strong>[April 2026]</strong> <li> I started my M.Sc. in Cybersecurity at Saarland University, Germany.</li>
+      <li style="margin-bottom: 0.8rem;"><strong>[April 2026]</strong> I started my M.Sc. in Cybersecurity at Saarland University, Germany.</li>
       <li style="margin-bottom: 0.8rem;"><strong>[March 2026]</strong> Our work "<a href="https://openreview.net/forum?id=9Q5YHXfxId">Auditing Preference-Based Post-Training of LLMs via Strong Membership Inference Attacks</a>" is Accepted at the 3rd Workshop on Navigating and Addressing Data Problems for Foundation Models @ ICLR 2026</li>
       <li style="margin-bottom: 0.8rem;"><strong>[June 2025]</strong> Our work "<a href="https://openreview.net/forum?id=YsTotIsCys">Implementing Adaptations for Vision AutoRegressive Model</a>" is Accepted at DIG-BUGS: Data in Generative Models Workshop @ ICML 2025</li>
       <li style="margin-bottom: 0.8rem;"><strong>[March 2025]</strong> Our paper on "Measuring Communal Violence Using Large Language Models" is accepted at the <a href="https://www.apsanet.org/annual-meeting/">American Political Science Association Annual Meeting</a> 2025. We will be presenting our work in Sept 2025.</li>
