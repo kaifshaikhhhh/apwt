@@ -232,6 +232,13 @@ site.author %} {% endif %}
           >Keybase</a
         >
       </li>
+      {% endif %} {% if author.pgp_key %}
+      <li>
+        <a href="{{ author.pgp_key | prepend: base_path }}" download="kaif_public.asc"
+          ><i class="fas fa-fw fa-lock icon-pad-right" aria-hidden="true"></i
+          >GPG Public Key</a
+        >
+      </li>
       {% endif %} {% if author.instagram %}
       <li>
         <a href="https://instagram.com/{{ author.instagram }}"

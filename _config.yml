@@ -57,6 +57,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
+  pgp_key          : "/assets/keys/kaif_public.asc"
   instagram        : # Username
   lastfm           : # Username
   linkedin         : "kaifshaikhhh" # Username
