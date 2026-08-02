@@ -1,0 +1,26 @@
+{%- comment -%}
+  Resolves the active language for the current page.
+
+  Sets:
+    page_lang  - short code used for the <html lang> attribute, e.g. "en" / "de"
+    ui_locale  - key into _data/ui-text.yml, e.g. "en-US" / "de-DE"
+    t          - the resolved ui-text hash for the active language
+    lang_alt   - URL of this page in the other language (nil if there is none)
+
+  Pages opt into a translation by setting `lang: de` and `lang_alt: /` in their
+  front matter. Anything without a `lang` falls back to the site default.
+
+  Emits no output, so it is safe to include inline.
+{%- endcomment -%}
+{%- assign page_lang = page.lang | default: site.locale | slice: 0, 2 -%}
+{%- case page_lang -%}
+  {%- when "de" -%}
+    {%- assign ui_locale = "de-DE" -%}
+  {%- else -%}
+    {%- assign ui_locale = site.locale -%}
+{%- endcase -%}
+{%- assign t = site.data.ui-text[ui_locale] -%}
+{%- if t == nil -%}
+  {%- assign t = site.data.ui-text["en-US"] -%}
+{%- endif -%}
+{%- assign lang_alt = page.lang_alt -%}

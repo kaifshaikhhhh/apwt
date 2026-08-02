@@ -1,0 +1,16 @@
+{%- comment -%}
+  Renders a date in the convention of the active language.
+
+  Usage: {% include date-localized date=page.modified %}
+
+  Liquid's `date` filter always emits English month names, so German dates are
+  assembled from the `months` list in _data/ui-text.yml (6. Juni 2016).
+{%- endcomment -%}
+{%- include lang -%}
+{%- assign d = include.date | default: "1900-01-01" -%}
+{%- if page_lang == "de" and t.months -%}
+{%- assign month_index = d | date: "%-m" | minus: 1 -%}
+{{- d | date: "%-d" }}. {{ t.months[month_index] }} {{ d | date: "%Y" -}}
+{%- else -%}
+{{- d | date: "%B %d, %Y" -}}
+{%- endif -%}

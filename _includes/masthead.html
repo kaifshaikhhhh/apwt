@@ -1,4 +1,17 @@
 {% include base_path %}
+{% include lang %}
+
+{% comment %}
+  Pages declare their counterpart with `lang_alt` in front matter. Anything that
+  has no translation yet falls back to the home page of the other language.
+{% endcomment %}
+{% if page_lang == "de" %}
+  {% assign switch_url = lang_alt | default: "/" %}
+  {% assign home_url = "/de/" %}
+{% else %}
+  {% assign switch_url = lang_alt | default: "/de/" %}
+  {% assign home_url = "/" %}
+{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -6,7 +19,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ home_url | relative_url }}">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -17,6 +30,18 @@
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+
+    <div class="masthead__lang">
+      <nav class="lang-switch" aria-label="{% if page_lang == 'de' %}Sprache{% else %}Language{% endif %}">
+        {% if page_lang == "de" %}
+          <a class="lang-switch__item" href="{{ switch_url | relative_url }}" lang="en" hreflang="en" title="Switch to English">EN</a>
+          <span class="lang-switch__item lang-switch__item--active" aria-current="true">DE</span>
+        {% else %}
+          <span class="lang-switch__item lang-switch__item--active" aria-current="true">EN</span>
+          <a class="lang-switch__item" href="{{ switch_url | relative_url }}" lang="de" hreflang="de" title="Auf Deutsch ansehen">DE</a>
+        {% endif %}
       </nav>
     </div>
   </div>

@@ -1,6 +1,16 @@
+{% include lang %}
 {% include base_path %} {% if page.author and site.data.authors[page.author] %}
 {% assign author = site.data.authors[page.author] %}{% else %}{% assign author =
 site.author %} {% endif %}
+
+{% comment %}
+  Free-text author fields can be overridden per language, e.g. `author.de.bio`
+  in _config.yml. Anything without an override keeps the default value.
+{% endcomment %}
+{% assign author_l10n = author[page_lang] %}
+{% assign author_bio = author_l10n.bio | default: author.bio %}
+{% assign author_location = author_l10n.location | default: author.location %}
+{% assign author_employer = author_l10n.employer | default: author.employer %}
 
 <div itemscope itemtype="http://schema.org/Person">
   <div class="author__avatar">
@@ -14,36 +24,36 @@ site.author %} {% endif %}
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}
     <p class="author__pronouns">{{ author.pronouns }}</p>
-    {% endif %} {% if author.bio %}
-    <p class="author__bio">{{ author.bio }}</p>
+    {% endif %} {% if author_bio %}
+    <p class="author__bio">{{ author_bio }}</p>
     {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">{{ t.follow_btn_label | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
-      {% if author.location %}
+      {% if author_location %}
       <li class="author__desktop">
         <i
           class="fa-solid fa-location-dot icon-pad-right"
           aria-hidden="true"
         ></i
-        >{{ author.location }}
+        >{{ author_location }}
       </li>
-      {% endif %} {% if author.employer %}
+      {% endif %} {% if author_employer %}
       <li class="author__desktop">
         <i
           class="fas fa-fw fa-building-columns icon-pad-right"
           aria-hidden="true"
         ></i
-        >{{ author.employer }}
+        >{{ author_employer }}
       </li>
       {% endif %} {% if author.uri %}
       <li>
         <a href="{{ author.uri }}"
           ><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{
-          site.data.ui-text[site.locale].website_label | default: "Website"
+          t.website_label | default: "Website"
           }}</a
         >
       </li>
@@ -54,7 +64,7 @@ site.author %} {% endif %}
             class="fas fa-fw fa-envelope icon-pad-right"
             aria-hidden="true"
           ></i
-          >{{ site.data.ui-text[site.locale].email_label | default: "Email"
+          >{{ t.email_label | default: "Email"
           }}</a
         >
       </li>
@@ -236,7 +246,7 @@ site.author %} {% endif %}
       <li>
         <a href="{{ author.pgp_key | prepend: base_path }}" download="kaif_public.asc"
           ><i class="fas fa-fw fa-lock icon-pad-right" aria-hidden="true"></i
-          >GPG Public Key</a
+          >{{ t.gpg_key_label | default: "GPG Public Key" }}</a
         >
       </li>
       {% endif %} {% if author.instagram %}
@@ -334,7 +344,7 @@ site.author %} {% endif %}
             class="fab fa-fw fa-x-twitter icon-pad-right"
             aria-hidden="true"
           ></i
-          >X (formerly Twitter)</a
+          >{{ t.twitter_label | default: "X (formerly Twitter)" }}</a
         >
       </li>
       {% endif %} {% if author.vine %}

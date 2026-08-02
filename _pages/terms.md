@@ -1,6 +1,8 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
+lang: en
+lang_alt: /de/terms/
 modified: 2016-06-06
 ---
 

@@ -1,8 +1,22 @@
 {% include base_path %}
+{% include lang %}
 
 <meta charset="utf-8">
 
 {% include seo.html %}
+
+{% comment %}<!-- Tell search engines about the English/German pair of this page -->{% endcomment %}
+{% if lang_alt %}
+  {% if page_lang == "de" %}
+    <link rel="alternate" hreflang="de" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ lang_alt | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ lang_alt | absolute_url }}">
+  {% else %}
+    <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="de" href="{{ lang_alt | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+  {% endif %}
+{% endif %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 

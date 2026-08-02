@@ -19,6 +19,8 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    display: flex;
+    align-items: center;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
@@ -37,12 +39,66 @@
 }
 
 .masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+}
+
+/* Language switcher (EN / DE) */
+.masthead__lang {
+  flex: 0 0 auto;
+  margin-left: 1em;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1;
+
+  &__item {
+    display: block;
+    padding: 0.45em 0.7em;
+    color: $masthead-link-color;
+    background: transparent;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+
+    + .lang-switch__item {
+      border-left: 1px solid $border-color;
+    }
+  }
+
+  /* `a` needs to beat the `.masthead__inner-wrap a` and `.greedy-nav a` rules */
+  a.lang-switch__item {
+    margin: 0;
+    color: $masthead-link-color;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      background: mix(#fff, $primary-color, 25%);
+    }
+  }
+
+  &__item--active {
+    color: #fff;
+    background: $primary-color;
+    cursor: default;
   }
 }
 

@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "About Me"
+lang: en
+lang_alt: /de/
 author_profile: true
 toc: true
 toc_label: "On this page"
