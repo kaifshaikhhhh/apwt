@@ -26,6 +26,8 @@ Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Ali
 <div style="border: 1px solid #e1e5e9; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; background-color: #f8f9fa;">
   <div style="max-height: 200px; overflow-y: auto; padding-right: 0.5rem;">
     <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.1;">
+      <li style="margin-bottom: 0.8rem;"><strong>[September 2026]</strong> Unsere Arbeit „Benchmarking Membership Privacy Risks in Preference-Based LLM Post-Training“ wurde beim NeurIPS 2026 Evaluations and Datasets Track angenommen.</li>
+      <li style="margin-bottom: 0.8rem;"><strong>[August 2026]</strong> Unsere Arbeit „<a href="https://arxiv.org/abs/2607.22928">Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools</a>“ wurde bei der AAAI/ACM Conference on AI, Ethics, and Society (AIES) 2026 angenommen.</li>
       <li style="margin-bottom: 0.8rem;"><strong>[April 2026]</strong> Ich habe mein M.Sc.-Studium im Studiengang Cybersecurity an der Universität des Saarlandes begonnen.</li>
       <li style="margin-bottom: 0.8rem;"><strong>[März 2026]</strong> Unsere Arbeit „<a href="https://openreview.net/forum?id=9Q5YHXfxId">Auditing Preference-Based Post-Training of LLMs via Strong Membership Inference Attacks</a>“ wurde beim 3rd Workshop on Navigating and Addressing Data Problems for Foundation Models @ ICLR 2026 angenommen.</li>
       <li style="margin-bottom: 0.8rem;"><strong>[Juni 2025]</strong> Unsere Arbeit „<a href="https://openreview.net/forum?id=YsTotIsCys">Implementing Adaptations for Vision AutoRegressive Model</a>“ wurde beim DIG-BUGS: Data in Generative Models Workshop @ ICML 2025 angenommen.</li>
@@ -36,5 +38,6 @@ Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Ali
 
 ## Publikationen
 
+- Kashif Imteyaz, Kaif Imteyaz, Nakul Rajpal, **Kaif Shaikh**, Michael Muller, Saiph Savage. [Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools](https://arxiv.org/abs/2607.22928). In: *Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES) 2026*.
 - Lorenzo Rossi, **Kaif Shaikh**, Franziska Boenisch, Adam Dziedzic. [Auditing Preference-Based Post-Training of LLMs via Strong Membership Inference Attacks](https://openreview.net/forum?id=9Q5YHXfxId). In: *3rd Workshop on Navigating and Addressing Data Problems for Foundation Models -- ICLR 2026*.
 - **Kaif Shaikh**, Antoni Kowalczuk, Franziska Boenisch, Adam Dziedzic. [Implementing Adaptations for Vision AutoRegressive Model](https://openreview.net/forum?id=YsTotIsCys). In: *Proceedings of the DIG-BUGS: Data in Generative Models Workshop --- ICML 2025*.
