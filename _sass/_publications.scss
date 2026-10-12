@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Publication list buttons (_includes/publication-list.html)
+   ========================================================================== */
+
+.pub {
+  margin-bottom: 1em;
+}
+
+.pub-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.45em;
+}
+
+.page__content .pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin: 0;
+  padding: 0.3em 0.7em;
+  border: 1px solid $light-gray;
+  border-radius: 0;
+  background: $background-color;
+  color: $text-color;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  line-height: 1.4;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+
+  &:hover,
+  &:focus-visible,
+  &[aria-expanded="true"] {
+    background: $lighter-gray;
+    border-color: $gray;
+    text-decoration: none;
+  }
+}
+
+.pub-cite {
+  position: relative;
+  margin-top: 0.5em;
+  border: 1px solid $light-gray;
+  background: $code-background-color;
+
+  pre {
+    margin: 0;
+    padding: 0.8em 1em;
+    overflow-x: auto;
+    font-size: $type-size-6;
+  }
+
+  code {
+    white-space: pre;
+  }
+}
+
+.page__content .pub-copy {
+  position: absolute;
+  top: 0.4em;
+  right: 0.4em;
+  padding: 0.15em 0.6em;
+  border: 1px solid $light-gray;
+  border-radius: 0;
+  background: $background-color;
+  color: $text-color;
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+  cursor: pointer;
+
+  &:hover {
+    background: $lighter-gray;
+  }
+}

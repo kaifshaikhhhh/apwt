@@ -1,0 +1,54 @@
+{%- if page.lang == 'de' -%}
+  {%- assign in_label = 'In:' -%}
+  {%- assign t_website = 'Webseite' -%}{%- assign t_slides = 'Folien' -%}{%- assign t_recording = 'Aufzeichnung' -%}
+  {%- assign t_cite = 'Zitieren' -%}{%- assign t_copy = 'Kopieren' -%}{%- assign t_copied = 'Kopiert!' -%}
+{%- else -%}
+  {%- assign in_label = 'In' -%}
+  {%- assign t_website = 'Website' -%}{%- assign t_slides = 'Slides' -%}{%- assign t_recording = 'Recording' -%}
+  {%- assign t_cite = 'Cite' -%}{%- assign t_copy = 'Copy' -%}{%- assign t_copied = 'Copied!' -%}
+{%- endif -%}
+<div class="pub-list">
+<ul>
+{%- for pub in site.data.publications -%}
+{%- assign l = pub.links -%}
+<li class="pub">
+{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}. <em>{{ pub.title }}</em>. {{ in_label }} <em>{{ pub.venue | markdownify | remove: '<p>' | remove: '</p>' | strip }}</em>.
+{%- if l.paper or l.website or l.github or l.slides or l.recording or pub.bibtex %}
+<div class="pub-buttons">
+{%- if l.paper %}<a class="pub-btn" href="{{ l.paper }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>Paper</a>{% endif -%}
+{%- if l.website %}<a class="pub-btn" href="{{ l.website }}" target="_blank" rel="noopener"><i class="fa-solid fa-globe" aria-hidden="true"></i>{{ t_website }}</a>{% endif -%}
+{%- if l.github %}<a class="pub-btn" href="{{ l.github }}" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>{% endif -%}
+{%- if l.slides %}<a class="pub-btn" href="{{ l.slides }}" target="_blank" rel="noopener"><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>{{ t_slides }}</a>{% endif -%}
+{%- if l.recording %}<a class="pub-btn" href="{{ l.recording }}" target="_blank" rel="noopener"><i class="fa-solid fa-video" aria-hidden="true"></i>{{ t_recording }}</a>{% endif -%}
+{%- if pub.bibtex %}<button type="button" class="pub-btn pub-cite-toggle" aria-expanded="false" aria-controls="cite-{{ pub.id }}"><i class="fa-solid fa-quote-right" aria-hidden="true"></i>{{ t_cite }}</button>{% endif -%}
+</div>
+{%- if pub.bibtex %}
+<div class="pub-cite" id="cite-{{ pub.id }}" hidden>
+<button type="button" class="pub-copy" data-label="{{ t_copy }}" data-copied="{{ t_copied }}">{{ t_copy }}</button>
+<pre><code>{{ pub.bibtex | strip | escape }}</code></pre>
+</div>
+{%- endif -%}
+{%- endif %}
+</li>
+{%- endfor %}
+</ul>
+</div>
+<script>
+document.addEventListener('click', function (e) {
+  var toggle = e.target.closest('.pub-cite-toggle');
+  if (toggle) {
+    var panel = document.getElementById(toggle.getAttribute('aria-controls'));
+    var open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    panel.hidden = open;
+    return;
+  }
+  var copy = e.target.closest('.pub-copy');
+  if (copy) {
+    navigator.clipboard.writeText(copy.parentElement.querySelector('code').textContent).then(function () {
+      copy.textContent = copy.dataset.copied;
+      setTimeout(function () { copy.textContent = copy.dataset.label; }, 1500);
+    });
+  }
+});
+</script>

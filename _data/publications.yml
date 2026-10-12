@@ -1,0 +1,53 @@
+# Publications shown on the homepage (English and German render from this one file).
+# A button appears only when its link is filled in; leave a field empty to hide it.
+# bibtex: paste the entry under "bibtex: |" (indented) to enable the Cite button.
+
+- id: design-theater
+  authors: "Kashif Imteyaz, Kaif Imteyaz, Nakul Rajpal, **Kaif Shaikh**, Michael Muller, Saiph Savage"
+  title: "Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools"
+  venue: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES) 2026"
+  links:
+    paper: https://arxiv.org/abs/2607.22928
+    website: https://design-theater.vercel.app/
+    github: https://github.com/kashifimteyaza/design-theater.io
+    slides:
+    recording:
+  bibtex: |
+    @inproceedings{imteyaz2026design,
+      title     = {[Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools]},
+      author    = {Imteyaz, Kashif and Imteyaz, Kaif and Rajpal, Nakul and
+                   Shaikh, Kaif and Muller, Michael and Savage, Saiph},
+      booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+      year      = {2026}
+    }
+
+- id: auditing-preference-mia
+  authors: "Lorenzo Rossi, **Kaif Shaikh**, Franziska Boenisch, Adam Dziedzic"
+  title: "Auditing Preference-Based Post-Training of LLMs via Strong Membership Inference Attacks"
+  venue: "3rd Workshop on Navigating and Addressing Data Problems for Foundation Models -- ICLR 2026"
+  links:
+    paper: https://openreview.net/forum?id=9Q5YHXfxId
+    website:
+    github:
+    slides:
+    recording:
+  bibtex:
+
+- id: var-adaptations
+  authors: "**Kaif Shaikh**, Antoni Kowalczuk, Franziska Boenisch, Adam Dziedzic"
+  title: "Implementing Adaptations for Vision AutoRegressive Model"
+  venue: "Proceedings of the DIG-BUGS: Data in Generative Models Workshop --- ICML 2025"
+  links:
+    paper: https://openreview.net/forum?id=YsTotIsCys
+    website:
+    github: https://github.com/sprintml/finetuning_var_dp
+    slides:
+    recording:
+  bibtex: |
+    @inproceedings{shaikh2025implementing,
+      title     = {Implementing Adaptations for Vision AutoRegressive Model},
+      author    = {Kaif Shaikh and Antoni Kowalczuk and Franziska Boenisch and Adam Dziedzic},
+      booktitle = {Data in Generative Models - The Bad, the Ugly, and the Greats},
+      year      = {2025},
+      url       = {https://openreview.net/forum?id=YsTotIsCys}
+    }
