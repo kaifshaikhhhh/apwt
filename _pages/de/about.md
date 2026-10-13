@@ -39,7 +39,7 @@ Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Ali
 
 ## Förderungen und Auszeichnungen
 
-- Förderung im Rahmen der Ausschreibung [EuroHPC AI Factory for Science and Collaborative EU Projects](https://www.eurohpc-ju.europa.eu/index_en), bewilligt 2026 (Projekt-ID: <span style="white-space: nowrap;">EHPC-AIF-2026SC04-358</span>).
+- **Oktober 2026:** Förderung im Rahmen der Ausschreibung [EuroHPC AI Factory for Science and Collaborative EU Projects](https://www.eurohpc-ju.europa.eu/index_en) (Projekt-ID: <span style="white-space: nowrap;">EHPC-AIF-2026SC04-358</span>).
 
 ## Publikationen
 
