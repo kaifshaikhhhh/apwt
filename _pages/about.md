@@ -26,7 +26,7 @@ Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Ali
 <div style="border: 1px solid #e1e5e9; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; background-color: #f8f9fa;">
   <div style="max-height: 200px; overflow-y: auto; padding-right: 0.5rem;">
     <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.1;">
-      <li style="margin-bottom: 0.8rem;"><strong>[October 2026]</strong> Our project "Private Adaptations for Tabular Foundation Models" was awarded a grant under the <a href="https://www.eurohpc-ju.europa.eu/index_en">EuroHPC AI Factory for Science and Collaborative EU Projects</a> call (Project ID: <span style="white-space: nowrap;">EHPC-AIF-2026SC04-358</span>).</li>
+      <li style="margin-bottom: 0.8rem;"><strong>[October 2026]</strong> Our project was awarded a grant under the <a href="https://www.eurohpc-ju.europa.eu/index_en">EuroHPC AI Factory for Science and Collaborative EU Projects</a> call (Project ID: <span style="white-space: nowrap;">EHPC-AIF-2026SC04-358</span>).</li>
       <li style="margin-bottom: 0.8rem;"><strong>[September 2026]</strong> Our paper "Benchmarking Membership Privacy Risks in Preference-Based LLM Post-Training" is accepted at the NeurIPS 2026 Evaluations and Datasets Track.</li>
       <li style="margin-bottom: 0.8rem;"><strong>[August 2026]</strong> Our paper "<a href="https://arxiv.org/abs/2607.22928">Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools</a>" is accepted at the AAAI/ACM Conference on AI, Ethics, and Society (AIES) 2026.</li>
       <li style="margin-bottom: 0.8rem;"><strong>[April 2026]</strong> I started my M.Sc. in Cybersecurity at Saarland University, Germany.</li>
@@ -39,7 +39,7 @@ Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Ali
 
 ## Grants & Awards
 
-- **2026:** Awarded a [EuroHPC AI Factory for Science and Collaborative EU Projects](https://www.eurohpc-ju.europa.eu/index_en) grant for the project *Private Adaptations for Tabular Foundation Models* (Project ID: <span style="white-space: nowrap;">EHPC-AIF-2026SC04-358</span>).
+- Received a [EuroHPC AI Factory for Science and Collaborative EU Projects](https://www.eurohpc-ju.europa.eu/index_en) grant in 2026 (Project ID: <span style="white-space: nowrap;">EHPC-AIF-2026SC04-358</span>).
 
 ## Publications
 
