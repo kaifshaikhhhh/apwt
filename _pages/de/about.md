@@ -11,7 +11,7 @@ redirect_from:
   - /de/ueber-mich/
 ---
 
-Ich bin Forscher am <a href="https://sprintml.com/">SprintML</a> Lab unter der Betreuung von <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> und <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> am <a href="https://cispa.de/de">CISPA Helmholtz-Zentrum für Informationssicherheit</a> und M.Sc.-Student im Studiengang Cybersecurity an der Universität des Saarlandes.
+Ich bin Forscher am <a href="https://sprintml.com/">SprintML</a> Lab unter der Betreuung von <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> und <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> am <a href="https://cispa.de/de">CISPA Helmholtz-Zentrum für Informationssicherheit</a> und M.Sc.-Student im Studiengang Cybersecurity an der <a href="https://www.uni-saarland.de/">Universität des Saarlandes</a>.
 
 Ich arbeite überwiegend an Themen rund um Trustworthy Machine Learning, mit Schwerpunkt auf Large Language Models, Vision und Multimodalität.
 
@@ -24,7 +24,7 @@ Trustworthy Machine Learning; Privacy in ML; Natural Language Processing; AI Ali
 ## Neuigkeiten
 
 <div style="border: 1px solid #e1e5e9; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; background-color: #f8f9fa;">
-  <div style="max-height: 200px; overflow-y: auto; padding-right: 0.5rem;">
+  <div style="max-height: 250px; overflow-y: auto; padding-right: 0.5rem;">
     <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.1;">
       <li style="margin-bottom: 0.8rem;"><strong>[Oktober 2026]</strong> Unser Projekt erhält eine Förderung im Rahmen der Ausschreibung <a href="https://www.eurohpc-ju.europa.eu/index_en">EuroHPC AI Factory for Science and Collaborative EU Projects</a> (Projekt-ID: <span style="white-space: nowrap;">EHPC-AIF-2026SC04-358</span>).</li>
       <li style="margin-bottom: 0.8rem;"><strong>[September 2026]</strong> Unsere Arbeit „Benchmarking Membership Privacy Risks in Preference-Based LLM Post-Training“ wurde beim NeurIPS 2026 Evaluations and Datasets Track angenommen.</li>

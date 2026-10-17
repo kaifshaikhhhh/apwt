@@ -42,12 +42,12 @@ site.author %} {% endif %}
         >{{ author_location }}
       </li>
       {% endif %} {% if author_employer %}
-      <li class="author__desktop">
+      <li class="author__desktop author__employer">
         <i
           class="fas fa-fw fa-building-columns icon-pad-right"
           aria-hidden="true"
         ></i
-        >{{ author_employer }}
+        ><span>{{ author_employer }}</span>
       </li>
       {% endif %} {% if author.uri %}
       <li>

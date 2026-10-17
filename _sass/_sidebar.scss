@@ -15,6 +15,7 @@
   width: $sidebar-link-max-width;
 
   @media screen and (min-width: $sidebar-screen-min-width) {
+    flex-shrink: 0;
     position: sticky;
     top: $masthead-height;
     height: auto;
@@ -242,6 +243,19 @@
 
   li {
     white-space: nowrap;
+  }
+
+  li.author__employer {
+    white-space: normal;
+
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      align-items: baseline;
+    }
+
+    i {
+      flex-shrink: 0;
+    }
   }
 
   a {

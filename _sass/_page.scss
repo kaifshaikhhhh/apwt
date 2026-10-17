@@ -20,7 +20,7 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: $site-max-width;
   }
 }
 
@@ -142,7 +142,7 @@
       padding-right: 1em;
 
       @include breakpoint($x-large) {
-        max-width: $x-large;
+        max-width: $site-max-width;
       }
     }
 
