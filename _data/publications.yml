@@ -13,12 +13,17 @@
     slides:
     recording:
   bibtex: |
-    @inproceedings{imteyaz2026design,
-      title     = {[Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools]},
-      author    = {Imteyaz, Kashif and Imteyaz, Kaif and Rajpal, Nakul and
-                   Shaikh, Kaif and Muller, Michael and Savage, Saiph},
-      booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
-      year      = {2026}
+    @article{Imteyaz_Imteyaz_Rajpal_Shaikh_Muller_Savage_2026,
+      title     = {Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools},
+      volume    = {9},
+      number    = {2},
+      url       = {https://ojs.aaai.org/index.php/AIES/article/view/43227},
+      DOI       = {10.1609/aies.v9i2.43227},
+      journal   = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+      author    = {Imteyaz, Kashif and Imteyaz, Kaif and Rajpal, Nakul and Shaikh, Kaif and Muller, Michael and Savage, Saiph},
+      year      = {2026},
+      month     = {Oct.},
+      pages     = {1325--1337}
     }
 
 - id: auditing-preference-mia
