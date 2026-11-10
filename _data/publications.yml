@@ -36,7 +36,14 @@
     github:
     slides:
     recording:
-  bibtex:
+  bibtex: |
+    @inproceedings{rossi2026auditing,
+      title     = {Auditing Preference-Based Post-Training of LLMs via Strong Membership Inference Attacks},
+      author    = {Rossi, Lorenzo and Shaikh, Kaif and Boenisch, Franziska and Dziedzic, Adam},
+      booktitle = {ICLR 2026 Workshop DATA-FM},
+      year      = {2026},
+      url       = {https://openreview.net/forum?id=9Q5YHXfxId}
+    }
 
 - id: var-adaptations
   authors: "**Kaif Shaikh**, Antoni Kowalczuk, Franziska Boenisch, Adam Dziedzic"
