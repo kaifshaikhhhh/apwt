@@ -2,6 +2,25 @@
 # A button appears only when its link is filled in; leave a field empty to hide it.
 # bibtex: paste the entry under "bibtex: |" (indented) to enable the Cite button.
 
+- id: benchmarking-preference-mia
+  authors: "Lorenzo Rossi, **Kaif Shaikh**, Franziska Boenisch, Adam Dziedzic"
+  title: "Benchmarking Membership Privacy Risks in Preference-Based LLM Post-Training"
+  venue: "The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS) Evaluations and Datasets Track 2026"
+  links:
+    paper: https://openreview.net/forum?id=TIAqMV9Kzf
+    website:
+    github: https://github.com/sprintml/PrivacyAuditPrefLLM
+    slides:
+    recording:
+  bibtex: |
+    @inproceedings{rossi2026benchmarking,
+      title     = {Benchmarking Membership Privacy Risks in Preference-Based {LLM} Post-Training},
+      author    = {Rossi, Lorenzo and Shaikh, Kaif and Boenisch, Franziska and Dziedzic, Adam},
+      booktitle = {The Fortieth Annual Conference on Neural Information Processing Systems Evaluations and Datasets Track},
+      year      = {2026},
+      url       = {https://openreview.net/forum?id=TIAqMV9Kzf}
+    }
+
 - id: design-theater
   authors: "Kashif Imteyaz, Kaif Imteyaz, Nakul Rajpal, **Kaif Shaikh**, Michael Muller, Saiph Savage"
   title: "Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools"
